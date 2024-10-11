@@ -33,7 +33,7 @@
         width: 100%;
     }
     #section-one {
-        background-image: linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,1) 80%), url(../img/backgrounds/dumbell.jpg);
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,1) 80%), url(../img/backgrounds/dumbell.jpg);
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -42,25 +42,25 @@
     div.div-transition-right {
         max-width: 100%;
         height: auto;
-        transition: transform 0.7s ease, opacity 0.7s ease; /* Transição suave para transformações e opacidade */
+        transition: transform 1s ease, opacity 1s ease; /* Transição suave para transformações e opacidade */
         opacity: 0;
-        transform:translate3d(100); /* Elemento começa fora da tela */
+        transform:translateX(0.5rem); /* Elemento começa fora da tela */
     }
     
     div.div-transition-bottom {
         max-width: 100%;
         height: auto;
-        transition: transform 0.7s ease, opacity 0.7s ease; /* Transição suave para transformações e opacidade */
+        transition: transform 1s ease, opacity 1s ease; /* Transição suave para transformações e opacidade */
         opacity: 0;
-        transform: translateX(-20em); /* Elemento começa fora da tela */
+        transform: translateX(-1em); /* Elemento começa fora da tela */
     }
     
     div.div-transition-left {
         max-width: 100%;
         height: auto;
-        transition: transform 0.7s ease, opacity 0.7s ease; /* Transição suave para transformações e opacidade */
+        transition: transform 1s ease, opacity 1s ease; /* Transição suave para transformações e opacidade */
         opacity: 0;
-        transform: translateX(20em); /* Elemento começa fora da tela */
+        transform: translateX(0.5em); /* Elemento começa fora da tela */
     }
     
     div.finish {
@@ -85,7 +85,7 @@
         height: auto;
         transition: transform 0.7s ease, opacity 0.7s ease; /* Transição suave para transformações e opacidade */
         opacity: 0;
-        transform: translateX(20em); /* Elemento começa fora da tela */
+        transform: translateX(5em); /* Elemento começa fora da tela */
     }
     
     div.div-transition-bottom {
@@ -93,7 +93,7 @@
         height: auto;
         transition: transform 0.7s ease, opacity 0.7s ease; /* Transição suave para transformações e opacidade */
         opacity: 0;
-        transform: translateY(20em); /* Elemento começa fora da tela */
+        transform: translateY(5em); /* Elemento começa fora da tela */
     }
     
     div.div-transition-left {
@@ -101,7 +101,7 @@
         height: auto;
         transition: transform 0.7s ease, opacity 0.7s ease; /* Transição suave para transformações e opacidade */
         opacity: 0;
-        transform: translateX(-20em); /* Elemento começa fora da tela */
+        transform: translateX(-5em); /* Elemento começa fora da tela */
     }
     
     div.finish {
@@ -129,7 +129,7 @@
         height: auto;
         transition: transform 0.7s ease, opacity 0.7s ease; /* Transição suave para transformações e opacidade */
         opacity: 0;
-        transform: translateX(20em); /* Elemento começa fora da tela */
+        transform: translateX(10em); /* Elemento começa fora da tela */
     }
     
     div.div-transition-bottom {
@@ -137,7 +137,7 @@
         height: auto;
         transition: transform 0.7s ease, opacity 0.7s ease; /* Transição suave para transformações e opacidade */
         opacity: 0;
-        transform: translateY(20em); /* Elemento começa fora da tela */
+        transform: translateY(10em); /* Elemento começa fora da tela */
     }
     
     div.div-transition-left {
@@ -145,7 +145,7 @@
         height: auto;
         transition: transform 0.7s ease, opacity 0.7s ease; /* Transição suave para transformações e opacidade */
         opacity: 0;
-        transform: translateX(-20em); /* Elemento começa fora da tela */
+        transform: translateX(-10em); /* Elemento começa fora da tela */
     }
     
     div.finish {
